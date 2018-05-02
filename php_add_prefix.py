@@ -102,8 +102,8 @@ if __name__ == "__main__":
     mkdir(target_dir) #如不存在目标文件夹，则新建文件夹
     add_prefix_files(source_dir, target_dir, prefix)    #调用函数对目录下文件操作
     admin_dir_path = r"\admin"
-    mkdir(target_dir) #如不存在目标文件夹，则新建文件夹
-    add_prefix_files(source_dir + admin_dir_path, target_dir + admin_dir_path, prefix)
+    mkdir(target_dir + admin_dir_path) #如不存在目标文件夹，则新建文件夹
+    add_prefix_files(source_dir + admin_dir_path, target_dir, prefix)
     print("\n修改 php 文件完成\n")
 
     '''修改文件名'''
