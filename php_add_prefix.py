@@ -4,9 +4,6 @@ import re
 import shutil
 
 def mkdir(path):
-    # 引入模块
-    import os
- 
     # 去除首位空格
     path=path.strip()
     # 去除尾部 \ 符号
