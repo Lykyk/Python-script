@@ -1,4 +1,9 @@
 # -*- coding:utf-8 -*-
+'''
+测试环境：
+    Windows 10
+    Python 3.6.x
+'''
 import os
 import re
 import shutil
