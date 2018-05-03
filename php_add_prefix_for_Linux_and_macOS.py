@@ -5,7 +5,9 @@ for Linux and macOS
     Python 3.6.x
     deepin 桌面版 15.5、macOS 10.13.4
 
-tip:若要在 Windows 下运行修改代码中有关路径的斜杠("/")字符即可
+Fork me on GitHub https://github.com/Lykyk/Python-script
+
+tip:与 Windows 版区别主要修改是代码中有关路径的斜杠("/")字符
 '''
 import os
 import re
